@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TamagotchiGame</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_read">Read</string>
+    <string name="title_bath">Bath</string>
+    <string name="title_eat">Eat</string>
+    <string name="title_school">School</string>
+    <string name="title_sleep">Sleep</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="depression_level">Depression Level</string>
+    <string name="sleep">Sleep: %</string>
+    <string name="hunger">Hunger: %</string>
+    <string name="sanity">Sanity: %</string>
+    <string name="cleanliness">Cleanliness: %</string>
+</resources>

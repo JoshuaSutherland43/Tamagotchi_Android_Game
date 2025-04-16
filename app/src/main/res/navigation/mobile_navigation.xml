@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="vcmsa.projects.tamagotchigame.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_read"
+        android:name="vcmsa.projects.tamagotchigame.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_read" />
+
+    <fragment
+        android:id="@+id/navigation_bath"
+        android:name="vcmsa.projects.tamagotchigame.ui.notifications.NotificationsFragment"
+        tools:layout="@layout/fragment_bath" />
+
+    <fragment
+        android:id="@+id/navigation_eat"
+        android:name="vcmsa.projects.tamagotchigame.ui.eat.EatFragment"
+        tools:layout="@layout/fragment_eat" />
+
+    <fragment
+        android:id="@+id/navigation_happy"
+        android:name="vcmsa.projects.tamagotchigame.ui.happy.HappyFragment"
+        tools:layout="@layout/fragment_happy" />
+
+
+    <fragment
+        android:id="@+id/navigation_school"
+        android:name="vcmsa.projects.tamagotchigame.ui.school.SchoolFragment"
+        tools:layout="@layout/fragment_school" />
+
+
+    <fragment
+        android:id="@+id/navigation_sick"
+        android:name="vcmsa.projects.tamagotchigame.ui.sick.SickFragment"
+        tools:layout="@layout/fragment_sick" />
+
+
+    <fragment
+        android:id="@+id/navigation_angry"
+        android:name="vcmsa.projects.tamagotchigame.ui.angry.AngryFragment"
+        tools:layout="@layout/fragment_angry" />
+
+    <fragment
+        android:id="@+id/navigation_sleep"
+        android:name="vcmsa.projects.tamagotchigame.ui.sleep.SleepFragment"
+        tools:layout="@layout/fragment_sleep" />
+
+    <fragment
+        android:id="@+id/navigation_death"
+        android:name="vcmsa.projects.tamagotchigame.ui.death.DeathFragment"
+        tools:layout="@layout/fragment_death" />
+
+</navigation>
